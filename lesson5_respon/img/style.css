@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.navbar{
+    width: 100%;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+.logo-text{
+    font-size: 20px;
+    font-weight: 700;
+}
+.menu ul {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.menu a {
+    color: grey;
+    text-decoration: none;
+}
+.menu a.active{
+    color: black;
+    font-weight: 700;
+}
+.signup{
+    display: flex;
+    gap: 35px;
+}
+.login{
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.signupbutton{
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: #5D50C6;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+.content{
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.travel{
+    width: 30%;
+}
+.explore{
+    display: flex;
+    gap: 10px;
+    color: #F85E9F;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    left: 120px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 100px;
+}
+.h1{
+    font-size: 45px;
+    font-weight: 700px;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    width: 35%;
+    margin-top: 43px;
+}
+.pink{
+    color: #F85E9F;
+}
+.p{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    margin-top: 43px;
+    color: grey;
+    width: 40%;
+}
+.button{
+    margin-top: 43px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 80px;
+}
+.button1{
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: rgba(93, 80, 198, 1);
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+}
+.button2{
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: 0.5px solid grey;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.play-icon {
+    background-color: #5D50C6;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: white;
+    position: relative;
+    
+}
+.image{
+    width: 50%;
+    position: relative;
+    left: 1000px;
+    bottom: 750px;
+    margin-top: 10px;
+}
+
+.layer{
+    width: 772px;
+    height: 285px;
+    position: absolute;
+    top: 50px;
+    left:10px;
+}
+
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-template-rows: repeat(2, 1fr);
+}
+.rectangle1{
+    width: 272px;
+    height: 300px;
+    position: absolute;
+    top: 130px;
+    left: 90px;
+}
+.rectangle2{
+    width: 272px;
+    height: 300px;
+    position: absolute;
+    top: 470px;
+    left: 90px;
+}
+.rectangle3{
+    width: 272px;
+    height: 400px;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+}
+.send{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}
+.frame{
+    position: absolute;
+    top: 710px;
+    left: 460px;
+}
+.top-places{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid white;
+    top: 530px;
+    left:600px;
+    border-radius: 30px;
+    padding: 20px 40px;
+    background-color: white;
+    text-align: center;
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+

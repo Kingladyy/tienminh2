@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: linear-gradient(to right, orange, #FBD786);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.alll{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255 , 255, 255, 0.95);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    width: 100%;
+}
+.profile-header{
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.profile-image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid red;
+    box-shadow: 0 5px 15px rgba(255, 255, 107, 0.3);
+    transition: transform 0.3s ease;
+}
+.profile-image :hover {
+    transform: scale(1.25);
+}
+h1{
+    color: chocolate;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+.title{
+    color: blueviolet;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.aaa{
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+.aaa:hover{
+    transform: translateY(-5px);
+}
+h2{
+    color:aquamarine; 
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+}
+p{
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.skill{
+    display: flex;
+    gap: 10px;
+}
+.soft-skill{
+    background: linear-gradient(to right, #b91d73, #f953c6);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 5px rgba(108, 92, 231, 0.5);
+    color: white;
+}
+.soft-skill:hover{
+    transform: scale(1.15);
+    box-shadow: 0 5px 15px rgba(108, 92, 231, 0.6);
+}
+ul{
+    margin-left: 20px;
+}
+.thông-tin{
+    text-align: center;
+}
+.contact-item{
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    background: linear-gradient(to right, #b91d73, #f953c6);
+    box-shadow: 0 2px 5px rgba(108, 92, 231, 0.5);
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3 ease;
+    display: inline-block;
+}
+.contact-item :hover{
+    transform: scale(1,5);
+    box-shadow:  0 5px 15px rgba(108, 92, 231, 0.6);
+}
+[href^="mailto: lamkool2110@gmail.com"]{background: #FBD786;}
+[href^="tel: 0329501800"]{background: blueviolet;}
+[href^="#"]{background: #f953c6;}
+
+    
